@@ -5,19 +5,17 @@ toy_story = media.Movie("Toy Story",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=P9-jf9-c9JM")
 
-print(toy_story.storyline)
+
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-print(avatar.title)
-#avatar.show_trailer()
 
 the_shawshank_redemption = media.Movie("The Shawshank Redemption",
                                        "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
                                         "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
                                         "https://www.youtube.com/watch?v=6hB3S9bIaco")
-#the_shawshank_redemption.show_trailer()
+
 
 django_unchained = media.Movie("Django Unchained",
                           "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
